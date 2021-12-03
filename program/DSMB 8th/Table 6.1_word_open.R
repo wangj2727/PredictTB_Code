@@ -59,7 +59,7 @@ plate2<-plate2%>%
 plate2<-plate2%>%
   filter(SUBJID %in% INREPORT$SUBJID)%>%
   mutate(Week4=ifelse(AfterWeek4_YN==2,2,1),
-         Week4=ifelse(SUBJID %in% c(14130, 15075,13039), 2, Week4), ### move to Arm A at week4 due to pregnancy
+         Week4=ifelse(SUBJID %in% c(14130, 15075,13039), 2, Week4), 
          Week16=ifelse(AfterWeek16_YN>=2,2,
                        ifelse(AfterWeek16_YN==1,0,
                               ifelse(AfterWeek16_YN==0,1,AfterWeek16_YN))),
