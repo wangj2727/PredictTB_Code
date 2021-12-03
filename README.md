@@ -1,5 +1,5 @@
 # PredictTB_Code
-This repository copntains R code to generate tables for the PredictTB study. 
+This repository contains R code to generate tables for the PredictTB study. 
 
 The main data collected from the study is not available here; therefore the R code is provided only to give a detailed record of how the tables were created, and without the data file that code cannot be run to recreate any tables. 
 
